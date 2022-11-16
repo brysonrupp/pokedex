@@ -28,10 +28,18 @@
   <main>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12">
-          <div id="app"></div>
+        <div class="col-3">
+          <section id="api-pokes" class="row"></section>
+        </div>
+        <div class="col-6">
+          <section id="active-poke" class=" sticky-top row justify-content-center bg-white rounded p-4 elevation-2">
+          </section>
+        </div>
+        <div class="col-3">
+          <section id="my-pokes" class="row"></section>
         </div>
       </div>
+    </div>
     </div>
   </main>
   <footer class="bg-dark text-light">
@@ -39,7 +47,7 @@
       <p><small>Made with 💖 by CodeWorks</small></p>
     </div>
   </footer>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.23.0/axios.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
